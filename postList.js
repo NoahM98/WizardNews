@@ -1,5 +1,4 @@
 import timeAgo from 'node-time-ago';
-import html from 'html-template-tag'
 
 const postList = (posts) => {
   return (

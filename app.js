@@ -1,10 +1,8 @@
 import express from 'express';
 import morgan from 'morgan';
 import { list, find } from './postBank.js';
-import timeAgo from 'node-time-ago';
 import postDetails from './postDetails.js';
 import postList from './postList.js';
-import html from 'html-template-tag'
 
 const app = express();
 app.use(morgan('dev'));

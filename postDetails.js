@@ -1,4 +1,4 @@
-import html from 'html-template-tag';
+import timeAgo from 'node-time-ago';
 
 const postDetails = (post) => {
   return (
